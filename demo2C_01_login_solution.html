@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<!-- 
+	Démo2C #01
+	Utilisation de formulaire par la méthode Post.
+	31/01/2020
+	Par : Pierre Coutu
+ -->    
+ 
+<head>
+	<title>démo2C_01</title>
+	<meta charset="UTF-8" />
+	<style>
+		label, input {display:block;margin:15px;}
+	</style>
+</head>
+
+<body >
+	<h1>Formulaire - connexion</h1>
+
+	<!-- "https://www.w3schools.com/action_page.php" -->
+	
+	<form action="https://www.w3schools.com/action_page.php" method="post">
+		
+		<label for="usager">Nom de l'usager :</label>
+		<input type="text" id="usager" name="usager" placeholder="Votre nom d'usager" required="required" />
+
+		
+		<label for="mdp">Mot de passe :</label>
+		<input type="password" id="mdp" name="motDePasse" />
+		
+		<input type="submit" value="Soumettre" />
+		
+	</form>
+
+</body>
+
+</html>
+
+
+
+
+
+
