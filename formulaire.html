@@ -3,13 +3,13 @@
 <head>
 	<title>Formulaire</title>
 	<style type="text/css">
-		h1 {
+		h1, h2 {
 
 			background-color: lightblue;
 		}
 
 		#div2 {
-			color: grey;
+			color: black;
 			text-align: center;
 		}
 	</style>
@@ -22,14 +22,18 @@
 
 	<div id="div2">
 		<form>
-			<label id="name" for="name">
-				<i>Nom:</i>
-			</label>
+			<h2>
+				<label id="name" for="name">
+					<b>Nom:</b>
+				</label>
+			</h2>
 			<input type="text" name="name" placeholder="Enter your name here..." required="required" />
 			<br />
-			<label for="first">
-				Prenom:
-			</label>
+			<h2>
+				<label for="first">
+					<b>Prenom:</b>
+				</label>
+			</h2>
 			<input type="text" name="first" placeholder="Enter here...">
 		</form>
 	</div>
